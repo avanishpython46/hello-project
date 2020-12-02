@@ -10,7 +10,7 @@ def list_book():
   print(lst)
 
 
-def delete():
+def delete_book():
   index = int(input("Enter the index : "))
   del lst[index]
 
